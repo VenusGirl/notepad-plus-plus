@@ -1,17 +1,17 @@
-<?xml version = "1.0" encoding = "utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!--
 Translation note:
 1. Please install XML Tools plugin for formatting your XML translation. Via menu "Plugins -> XML Tools-> Pretty Print - indent only" command.
 2. All the comments are for explanation, they are not for translation.
 -->
 <!--
-  <localization work version="7.8.1~8.6.9" nick="Sapziller" name="ByungJo Yoon" mail="yunbj@naver.com"/> <localization work version=6.5.3~7.4.2 name="도움돌" mail= "domddol@gmail.com"/> <localization work version=1 and 6.1.5 nick= "taggon" name= "Taegon Kim" mail= "gonom9@gmail.com"/> <localization work version=2 nick= "" name= "JiHui Choi" mail= "jihui.choi@gmail.com"/> <localization work version=5.4R2 nick= "DreamFactory7" name= "JongPil Kim" mail= "kmshts@naver.com"/> <localization work version=4 nick= "Sapziller" name= "Byungjo Yoon" mail= "yunbj@naver.com"/> <localization work version=5.8 nick= "DreamFactory7" name= "JongPil Kim" mail= "kmshts@naver.com"/> <localization work version=5.9 nick= "Syonsi" name= "Kim JunHo" mail= "syonsi@live.com"/> <localization work version=5.92 nick= "Global DOL+I" name= "Lee Junho" mail= "riifjv@live.com"/>
+  <localization work version="8.7.0~8.8.4" nick="VenusGirl" name="비너스 걸" mail="venusgirl@outlook.com"/> "7.8.1~8.6.9" nick="Sapziller" name="ByungJo Yoon" mail="yunbj@naver.com"/> <localization work version=6.5.3~7.4.2 name="도움돌" mail= "domddol@gmail.com"/> <localization work version=1 and 6.1.5 nick= "taggon" name= "Taegon Kim" mail= "gonom9@gmail.com"/> <localization work version=2 nick= "" name= "JiHui Choi" mail= "jihui.choi@gmail.com"/> <localization work version=5.4R2 nick= "DreamFactory7" name= "JongPil Kim" mail= "kmshts@naver.com"/> <localization work version=4 nick= "Sapziller" name= "Byungjo Yoon" mail= "yunbj@naver.com"/> <localization work version=5.8 nick= "DreamFactory7" name= "JongPil Kim" mail= "kmshts@naver.com"/> <localization work version=5.9 nick= "Syonsi" name= "Kim JunHo" mail= "syonsi@live.com"/> <localization work version=5.92 nick= "Global DOL+I" name= "Lee Junho" mail= "riifjv@live.com"/>
 -->
 <NotepadPlus>
-	<Native-Langue name="한국어" filename="korean.xml" version="8.6.9">
+	<Native-Langue name="한국어" filename="korean.xml" version="8.8.1">
 		<Menu>
 			<Main>
-				<!--  Main Menu Entries -->
+				<!-- Main Menu Entries -->
 				<Entries>
 					<Item menuId="file" name="파일(&amp;F)"/>
 					<Item menuId="edit" name="편집(&amp;E)"/>
@@ -26,7 +26,7 @@ Translation note:
 					<Item menuId="Plugins" name="플러그인"/>
 					<Item menuId="Window" name="창 관리"/>
 				</Entries>
-				<!--  Sub Menu Entries -->
+				<!-- Sub Menu Entries -->
 				<SubEntries>
 					<Item subMenuId="file-openFolder" name="현재 폴더 열기(&amp;F)"/>
 					<Item subMenuId="file-closeMore" name="여러 문서 닫기(&amp;M)"/>
@@ -74,7 +74,7 @@ Translation note:
 					<Item subMenuId="encoding-korean" name="한국어"/>
 					<Item subMenuId="encoding-northEuropean" name="북유럽어"/>
 					<Item subMenuId="encoding-thai" name="태국어"/>
-					<Item subMenuId="encoding-turkish" name="터키어"/>
+					<Item subMenuId="encoding-turkish" name="튀르키예어"/>
 					<Item subMenuId="encoding-westernEuropean" name="서유럽어"/>
 					<Item subMenuId="encoding-vietnamese" name="베트남어"/>
 					<Item subMenuId="language-userDefinedLanguage" name="사용자 정의 언어"/>
@@ -83,38 +83,39 @@ Translation note:
 					<Item subMenuId="tools-sha1" name="SHA-1"/>
 					<Item subMenuId="tools-sha256" name="SHA-256"/>
 					<Item subMenuId="tools-sha512" name="SHA-512"/>
-					<Item subMenuId="window-sortby" name="정렬하기"/>
+					<Item subMenuId="window-sortby" name="정렬 기준"/>
 				</SubEntries>
 
-				<!--  all menu item -->
+				<!-- all menu item -->
 				<Commands>
-					<Item id="41001" name="새 파일(&amp;N)"/>
+					<Item id="41001" name="새로 만들기(&amp;N)"/>
 					<Item id="41002" name="열기...(&amp;O)"/>
 					<Item id="41019" name="탐색기"/>
 					<Item id="41020" name="CMD"/>
 					<Item id="41025" name="폴더를 작업 영역으로"/>
 					<Item id="41003" name="닫기(&amp;C)"/>
-					<Item id="41004" name="모두 닫기(&amp;e)"/>
-					<Item id="41005" name="다른 문서 모두 닫기"/>
+					<Item id="41004" name="모두 닫기(&amp;E)"/>
+					<Item id="41005" name="현재 문서를 제외한 모든 문서 닫기"/>
+					<Item id="41026" name="고정된 문서를 제외한 모든 문서 닫기"/>
 					<Item id="41009" name="왼쪽에 있는 문서 모두 닫기"/>
 					<Item id="41018" name="오른쪽에 있는 문서 모두 닫기"/>
 					<Item id="41024" name="바뀌지 않은 문서 모두 닫기"/>
 					<Item id="41006" name="저장(&amp;S)"/>
 					<Item id="41007" name="모두 저장(&amp;E)"/>
-					<Item id="41008" name="다른 이름으로 저장...(&amp;A)"/>
-					<Item id="41010" name="인쇄...(&amp;P)"/>
-					<Item id="1001" name="지금 인쇄(&amp;w)"/>
-					<Item id="41011" name="종료(&amp;x)"/>
-					<Item id="41012" name="세션 불러오기...(&amp;i)"/>
-					<Item id="41013" name="세션 저장...(&amp;i)"/>
-					<Item id="41014" name="파일 다시 불러오기(&amp;l)"/>
-					<Item id="41015" name="다른 이름으로 복사본 저장...(&amp;y)"/>
+					<Item id="41008" name="다른 이름으로 저장(&amp;A)..."/>
+					<Item id="41010" name="인쇄(&amp;P)..."/>
+					<Item id="1001" name="지금 인쇄(&amp;W)"/>
+					<Item id="41011" name="종료(&amp;X)"/>
+					<Item id="41012" name="세션 불러오기(&amp;I)..."/>
+					<Item id="41013" name="세션 저장(&amp;I)..."/>
+					<Item id="41014" name="파일 다시 불러오기(&amp;L)"/>
+					<Item id="41015" name="다른 이름으로 복사본 저장(&amp;Y)..."/>
 					<Item id="41016" name="휴지통으로 이동(&amp;B)"/>
-					<Item id="41017" name="파일 이름 변경...(&amp;R)"/>
+					<Item id="41017" name="파일 이름 변경(&amp;R)..."/>
 					<Item id="41021" name="최근 닫은 파일 복원"/>
 					<Item id="41022" name="작업 영역으로 폴더 열기(&amp;W)"/>
 					<Item id="41023" name="기본 뷰어로 열기(&amp;D)"/>
-					<Item id="42001" name="잘라내기(&amp;t)"/>
+					<Item id="42001" name="잘라내기(&amp;T)"/>
 					<Item id="42002" name="복사(&amp;C)"/>
 					<Item id="42003" name="실행 취소(&amp;U)"/>
 					<Item id="42004" name="다시 실행(&amp;R)"/>
@@ -139,6 +140,8 @@ Translation note:
 					<Item id="42060" name="사전식 내림차순 정렬"/>
 					<Item id="42080" name="사전식 오름차순 정렬(대소문자 무시)"/>
 					<Item id="42081" name="사전식 내림차순 정렬(대소문자 무시)"/>
+					<Item id="42100" name="로케일 순서 오름차순으로 줄 정렬"/>
+					<Item id="42101" name="로케일 순서 내림차순으로 줄 정렬"/>
 					<Item id="42061" name="정수 오름차순 정렬"/>
 					<Item id="42062" name="정수 내림차순 정렬"/>
 					<Item id="42063" name="소수(쉼표) 오름차순 정렬"/>
@@ -190,9 +193,9 @@ Translation note:
 					<Item id="42050" name="이진 내용 붙여넣기"/>
 					<Item id="42082" name="연결 복사하기"/>
 					<Item id="42037" name="열 모드..."/>
-					<Item id="42034" name="열 편집기...(&amp;n)"/>
+					<Item id="42034" name="열 편집기(&amp;N)..."/>
 					<Item id="42051" name="문자 패널(&amp;P)"/>
-					<Item id="42052" name="클립보드 히스토리(&amp;H)"/>
+					<Item id="42052" name="클립보드 기록(&amp;H)"/>
 					<Item id="42025" name="현재 기록된 매크로 저장(&amp;S)"/>
 					<Item id="42026" name="텍스트 방향 (오른쪽->왼쪽)"/>
 					<Item id="42027" name="텍스트 방향 (왼쪽->오른쪽)"/>
@@ -202,7 +205,8 @@ Translation note:
 					<Item id="42031" name="현재 디렉토리 경로 복사"/>
 					<Item id="42087" name="모든 파일 이름 복사"/>
 					<Item id="42088" name="모든 파일 경로 복사"/>
-					<Item id="42032" name="매크로 반복 실행...(&amp;R)"/>
+					<Item id="42032" name="매크로 반복 실행(&amp;R)..."/>
+					<Item id="42033" name="Windows의 읽기 전용 속성"/>
 					<Item id="42035" name="한 줄 주석 달기"/>
 					<Item id="42036" name="한 줄 주석 제거"/>
 					<Item id="42055" name="빈 줄 제거"/>
@@ -335,15 +339,15 @@ Translation note:
 					<Item id="45002" name="Unix (LF)"/>
 					<Item id="45003" name="Macintosh (CR)"/>
 					<Item id="45004" name="ANSI"/>
-					<Item id="45005" name="UTF-8 BOM"/>
-					<Item id="45006" name="UCS-2 BE"/>
-					<Item id="45007" name="UCS-2 LE"/>
+					<Item id="45005" name="UTF-8-BOM"/>
+					<Item id="45006" name="UTF-16 BE BOM"/>
+					<Item id="45007" name="UTF-16 LE BOM"/>
 					<Item id="45008" name="UTF-8"/>
 					<Item id="45009" name="ANSI로 변환"/>
 					<Item id="45010" name="UTF-8로 변환"/>
-					<Item id="45011" name="UTF-8 BOM으로 변환"/>
-					<Item id="45012" name="UCS-2 BE로 변환"/>
-					<Item id="45013" name="UCS-2 LE로 변환"/>
+					<Item id="45011" name="UTF-8-BOM으로 변환"/>
+					<Item id="45012" name="UTF-16 BE BOM로 변환"/>
+					<Item id="45013" name="UTF-16 LE BOM로 변환"/>
 					<Item id="45060" name="Big5 (중국어 번체)"/>
 					<Item id="45061" name="GB2312 (중국어 간체)"/>
 					<Item id="45054" name="OEM 861: 아이슬란드어"/>
@@ -421,9 +425,11 @@ Translation note:
 				<Item CMDID="41003" name="닫기"/>
 				<Item CMDID="0" name="여러 탭 닫기"/>
 				<Item CMDID="41005" name="현재 문서만 남기고 닫기"/>
+				<Item CMDID="41026" name="고정을 제외한 모두 닫기"/>
 				<Item CMDID="41009" name="왼쪽 탭 모두 닫기"/>
 				<Item CMDID="41018" name="오른쪽 탭 모두 닫기"/>
 				<Item CMDID="41024" name="바뀌지 않은 문서 모두 닫기"/>
+				<Item CMDID="44048" name="탭 고정" alternativeName="탭 고정 해제"/>
 				<Item CMDID="41006" name="저장"/>
 				<Item CMDID="41008" name="다른 이름으로 저장..."/>
 				<Item CMDID="1" name="열기"/>
@@ -436,6 +442,7 @@ Translation note:
 				<Item CMDID="41014" name="다시 불러오기"/>
 				<Item CMDID="41010" name="인쇄..."/>
 				<Item CMDID="42028" name="읽기 전용 설정"/>
+				<Item CMDID="42033" name="Windows에서 읽기 전용 속성"/>
 				<Item CMDID="2" name="클립보드에 복사"/>
 				<Item CMDID="42029" name="전체 파일 경로 복사"/>
 				<Item CMDID="42030" name="파일 이름 복사"/>
@@ -460,7 +467,7 @@ Translation note:
 				<Item id="43102" name="새 파일"/>
 				<Item id="43103" name="새 파일을 열고 붙여넣기"/>
 				<Item id="43104" name="열기..."/>
-				<Item id="43103" name="파일에서 찾기..."/>
+				<Item id="43013" name="파일에서 찾기..."/>
 				<Item id="43105" name="트레이 아이콘 닫기"/>
 			</TrayIcon>
 		</Menu>
@@ -638,6 +645,8 @@ Translation note:
 					<Item id="2231" name="전역 기울임 글꼴 사용"/>
 					<Item id="2232" name="전역 밑줄 글꼴 사용"/>
 					<Item id="2234" name="설정으로 이동"/>
+					<!-- Don't translate "Global override" -->
+					<Item id="2235" name="Global override란 무엇인가요?"/>
 				</SubDialog>
 			</StyleConfig>
 
@@ -818,6 +827,7 @@ Translation note:
 				<Folder title="폴더 &amp;&amp; 기본값">
 					<Item id="21101" name="기본 형식"/>
 					<Item id="21102" name="스타일러"/>
+					<Item id="21103" name="사용자 정의 언어 온라인 도움말"/>
 					<Item id="21105" name="설명서"/>
 					<Item id="21106" name="최대 접기 (빈 줄 포함)(&amp;c)"/>
 					<Item id="21220" name="접기 형식 1"/>
@@ -941,34 +951,55 @@ Translation note:
 			<Preference title="환경설정">
 				<Item id="6001" name="닫기"/>
 				<Global title="일반">
-					<Item id="6102" name="숨기기"/>
-					<Item id="6103" name="Fluent UI: 작음"/>
-					<Item id="6104" name="Fluent UI: 큼"/>
-					<Item id="6129" name="Filled Fluent UI: 작음"/>
-					<Item id="6130" name="Filled Fluent UI: 큼"/>
-					<Item id="6105" name="표준 아이콘: 작음"/>
-
-					<Item id="6107" name="작게"/>
-					<Item id="6108" name="잠금 (끌어넣기 불가)"/>
-					<Item id="6109" name="비활성 탭 어둡게 표시"/>
-					<Item id="6110" name="활성 탭에 색 선 표시"/>
-					<Item id="6112" name="각 탭에 닫기 단추 표시"/>
-					<Item id="6113" name="더블 클릭으로 문서 닫기"/>
-					<Item id="6118" name="숨기기"/>
-					<Item id="6119" name="여러 줄로 표시"/>
-					<Item id="6120" name="수직 배열"/>
-					<Item id="6121" name="마지막 탭 닫을 시 종료"/>
-					<Item id="6128" name="대체 아이콘"/>
-
+					<Item id="6123" name="표시 언어"/>
+					<Item id="6131" name="메뉴"/>
+					<Item id="6122" name="숨기기 (Alt 또는 F10 키로 전환)"/>
+					<Item id="6132" name="오른쪽 단축키 숨기기 ＋ ▼ ✕"/>
 					<Item id="6133" name="상태 표시줄"/>
 					<Item id="6134" name="숨기기"/>
-
-					<Item id="6131" name="메뉴"/>
-					<Item id="6122" name="메뉴 숨기기 (Alt 또는 F10키로 전환)"/>
-					<Item id="6132" name="메뉴바에서 우측 단축기 ＋ ▼ ✕ 숨기기 (Notepad++ 재시작 필요)"/>
-
-					<Item id="6123" name="표시 언어"/>
 				</Global>
+
+				<Toolbar title="도구 표시줄">
+					<Item id="6102" name="숨기기"/>
+					<Item id="6103" name="Fluent UI: 작게"/>
+					<Item id="6104" name="Fluent UI: 크게"/>
+					<Item id="6129" name="Filled Fluent UI: 작게"/>
+					<Item id="6130" name="Filled Fluent UI: 크게"/>
+					<Item id="6105" name="표준 아이콘: 작게"/>
+					<Item id="6011" name="컬러화"/>
+					<Item id="6012" name="완전"/>
+					<Item id="6013" name="부분"/>
+					<Item id="6014" name="색상 선택"/>
+					<Item id="6015" name="기본값"/>
+					<Item id="6016" name="빨강"/>
+					<Item id="6017" name="녹색"/>
+					<Item id="6018" name="파랑"/>
+					<Item id="6019" name="보라색"/>
+					<Item id="6020" name="청록색"/>
+					<Item id="6021" name="올리브"/>
+					<Item id="6022" name="노랑"/>
+					<Item id="6023" name="시스템 강조"/>
+					<Item id="6024" name="사용자 지정"/>
+				</Toolbar>
+
+				<Tabbar title="탭 표시줄">
+					<Item id="6107" name="감소"/>
+					<Item id="6108" name="잠금 (끌어서 떨어뜨리지 않음)"/>
+					<Item id="6109" name="비활성 탭 색상 변경"/>
+					<Item id="6110" name="활성 탭에 색상 막대 그리기"/>
+					<Item id="6111" name="비활성 탭에 버튼 표시"/>
+					<Item id="6112" name="닫기 버튼 표시"/>
+					<Item id="6113" name="문서를 닫으려면 두 번 클릭"/>
+					<Item id="6115" name="고정 탭 활성화 기능"/>
+					<Item id="6135" name="고정 버튼만 표시"/>
+					<Item id="6118" name="숨기기"/>
+					<Item id="6119" name="다중선"/>
+					<Item id="6120" name="수직"/>
+					<Item id="6121" name="마지막 탭을 닫으면 종료"/>
+					<Item id="6128" name="대체 아이콘"/>
+					<Item id="6125" name="동작"/>
+					<Item id="6126" name="모양 및 느낌"/>
+				</Tabbar>
 
 				<Scintillas title="편집 1">
 					<Item id="6216" name="커서 설정"/>
@@ -982,11 +1013,12 @@ Translation note:
 					<Item id="6229" name="정렬"/>
 					<Item id="6230" name="들여쓰기"/>
 					<Item id="6234" name="터치패드 문제로 고급 스크롤 기능 비활성화"/>
-					<Item id="6215" name="부드러운 폰트 활성화"/>
+					<Item id="6215" name="부드러운 글꼴 활성화"/>
 					<Item id="6236" name="마지막 줄 이후로 스크롤 가능"/>
 					<Item id="6239" name="선택 영역 바깥에서 우클릭해도 선택 유지"/>
 					<Item id="6245" name="가상 공간 활성화"/>
 					<Item id="6214" name="선택하지 않고 줄 복사/자르기 활성화"/>
+					<Item id="6225" name="선택한 텍스트 전경에 사용자 지정 색상 적용"/>
 					<Item id="6651" name="현재 줄 표시기"/>
 					<Item id="6652" name="없음"/>
 					<Item id="6653" name="배경 강조"/>
@@ -1001,7 +1033,7 @@ Translation note:
 					<Item id="6247" name="줄 끝 (CRLF)"/><!-- Don't translate "(CRLF)" -->
 					<Item id="6248" name="기본값"/>
 					<Item id="6249" name="일반 텍스트"/>
-					<Item id="6250" name="사용자 정의 색상"/>
+					<Item id="6250" name="사용자 지정 색상"/>
 					<Item id="6252" name="출력 불가능한 글자"/>
 					<Item id="6260" name="모양"/>
 					<Item id="6254" name="약어"/>
@@ -1011,10 +1043,10 @@ Translation note:
 					<Item id="6259" name="제어 문자 (C0 부호) 문서 입력 방지"/>
 				</Scintillas2>
 
-				<DarkMode title="다크모드">
-					<Item id="7131" name="밝은색모드"/>
-					<Item id="7132" name="다크모드"/>
-					<Item id="7133" name="윈도우 설정을 따름"/>
+				<DarkMode title="어두운 모드">
+					<Item id="7131" name="밝은 모드"/>
+					<Item id="7132" name="어두운 모드"/>
+					<Item id="7133" name="Windows 설정을 따름"/>
 					<Item id="7102" name="검정"/>
 					<Item id="7103" name="빨강"/>
 					<Item id="7104" name="초록"/>
@@ -1073,12 +1105,13 @@ Translation note:
 					<Item id="6406" name="ANSI"/>
 					<Item id="6407" name="UTF-8"/>
 					<Item id="6408" name="UTF-8 (BOM 포함)"/>
-					<Item id="6409" name="UCS-2 빅 엔디언 (BOM 포함)"/>
-					<Item id="6410" name="UCS-2 리틀 엔디언 (BOM 포함)"/>
+					<Item id="6409" name="UTF-16 빅 엔디언 (BOM 포함)"/>
+					<Item id="6410" name="UTF-16 리틀 엔디언 (BOM 포함)"/>
 					<Item id="6411" name="기본 언어:"/>
 					<Item id="6419" name="새 문서"/>
 					<Item id="6420" name="모든 열려있는 ANSI 파일에 적용"/>
 					<Item id="6432" name="시작할 때 항상 새 문서 추가로 열기"/>
+					<Item id="6433" name="Use the first line of document as untitled tab name"/>
 				</NewDoc>
 
 				<DefaultDir title="기본 디렉토리">
@@ -1183,6 +1216,7 @@ Translation note:
 					<Item id="6908" name="선택된 텍스트로 찾기 창 채우기"/>
 					<Item id="6909" name="아무 것도 선택되지 않으면 커서 아래의 단어 선택"/>
 					<Item id="6910" name="&quot;선택 안&quot;에서 자동 검사 최소 크기:"/>
+					<Item id="6913" name="활성 문서를 기반으로 파일 디렉터리 필드에서 찾기 채우기"/>
 				</Searching>
 
 				<RecentFilesHistory title="최근 파일 사용 기록">
@@ -1235,20 +1269,20 @@ Translation note:
 					<Item id="6866" name="#3 쌍:"/>
 				</AutoCompletion>
 
-				<MultiInstance title="다중 실행 &amp; 날짜">
-					<Item id="6151" name="다중 실행 설정 *"/>
-					<Item id="6152" name="Notepad++의 새 인스턴스에서 세션 열기"/>
-					<Item id="6153" name="항상 다중 실행 모드"/>
+				<MultiInstance title="다중 인스턴스 및 날짜">
+					<Item id="6151" name="다중 인스턴스 설정 *"/>
+					<Item id="6152" name="새 인스턴스에서 세션 열기 (종료 시 세션 자동 저장)"/>
+					<Item id="6153" name="항상 다중 인스턴스 모드"/>
 					<Item id="6154" name="기본값 (단일 인스턴스)"/>
-					<Item id="6155" name="* 이 설정을 변경하면 Notepad++를 다시 시작해야 합니다."/>
-					<Item id="6171" name="날짜 시간 사용자 정의"/>
-					<Item id="6175" name="기본 날짜 시간 순서 뒤집기 (짧은 형식 &amp;&amp; 긴 형식)"/>
-					<Item id="6172" name="사용자 정의 형식:"/>
-					<Item id="6181" name="패널 상태와 [-nosession] *"/>
-					<Item id="6182" name="다른 인스턴스(다중 인스턴스 모드)에서 또는 명령줄 매개변수[-nosession] 를 사용할 때 패널 상태(열린 패널)를 기억하기"/>
+					<Item id="6155" name="* 이 설정을 수정하려면 Notepad++을 다시 시작해야 합니다."/>
+					<Item id="6171" name="삽입 날짜 시간 사용자 지정"/>
+					<Item id="6175" name="기본 날짜 및 시간 순서 반전 (짧은 형식 및 긴 형식)"/>
+					<Item id="6172" name="사용자 지정 형식:"/>
+					<Item id="6181" name="패널 상태 및 [-nosession] *"/>
+					<Item id="6182" name="다른 인스턴스 (다중 인스턴스 모드)나 명령줄 매개변수 [-nosession]을 사용할 때 패널 상태 (패널이 열려 있음) 기억"/>
 					<Item id="6183" name="클립보드 이력"/>
 					<Item id="6184" name="문서 목록"/>
-					<Item id="6185" name="글자 패널"/>
+					<Item id="6185" name="문자 패널"/>
 					<Item id="6186" name="폴더를 작업영역으로"/>
 					<Item id="6187" name="프로젝트 패널"/>
 					<Item id="6188" name="문서 지도"/>
@@ -1280,7 +1314,7 @@ Translation note:
 					<Item id="7152" name="2GB 보다 큰 파일을 열 때 경고 없앰"/>
 				</Performance>
 
-				<Cloud title="클라우드 &amp; 연결">
+				<Cloud title="클라우드 및 연결">
 					<Item id="6262" name="클라우드 설정"/>
 					<Item id="6263" name="클라우드 없음"/>
 					<Item id="6267" name="클라우드 위치 경로를 설정:"/>
@@ -1308,11 +1342,31 @@ Translation note:
 						<Element name="모든 열린 파일에 사용"/>
 						<Element name="사용 금지"/>
 					</ComboBox>
+					<ComboBox id="6307">
+						<Element name="조치 없음"/>
+						<Element name="최소화"/>
+						<Element name="닫기"/>
+						<Element name="최소화 / 닫기"/>
+					</ComboBox>
+					<ComboBox id="6362">
+						<Element name="GDI (가장 호환 가능)"/>
+						<Element name="DirectWrite (기본값)"/>
+						<Element name="DirectWrite (프레임 유지)"/>
+						<Element name="DirectWrite (GDI DC로 그리기)"/>
+						<Element name="DirectWrite (DirectX 11)"/>
+					</ComboBox>
+					<ComboBox id="6364">
+						<Element name="비활성화"/>
+						<Element name="Notepad++ 시작 시 활성화"/>
+						<Element name="Notepad++ 종료 시 활성화"/>
+					</ComboBox>
+					<Item id="6308" name="시스템 트레이"/>
+					<Item id="6363" name="렌더링 모드"/>
+					<Item id="6365" name="자동 업데이트:"/>
 					<Item id="6312" name="파일 상태 자동 확인"/>
 					<Item id="6313" name="경고 없이 업데이트"/>
 					<Item id="6325" name="업데이트 후 마지막 줄로 이동"/>
 					<Item id="6322" name="세션 파일 확장자:"/>
-					<Item id="6323" name="Notepad++ 자동 업데이트 사용"/>
 					<Item id="6324" name="문서 전환 (Ctrl+Tab)"/>
 					<Item id="6331" name="제목 표시줄에 파일 이름만 표시"/>
 					<Item id="6334" name="문자 인코딩 자동 감지"/>
@@ -1414,7 +1468,7 @@ Translation note:
 			<FileLockedWarning title="저장 실패" message="다른 프로그램에서 파일을 사용하는지 확인하십시오."/>
 			<FileAlreadyOpenedInNpp title="" message="이미 Notepad++에 열려 있는 파일입니다."/><!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
 			<RenameTabTemporaryNameAlreadyInUse title="이름바꾸기 실패" message="이름이 이미 다른 탭에서 사용중입니다."/><!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
-			<RenameTabTemporaryNameIsEmpry title="이름바꾸기 실패" message="빈 문자열이나 공백 문자(스페이스나 탭)만 있는 문자열은 사용할 수 없습니다."/><!-- HowToReproduce: Rename the tab of an untitled document and provide an empty string or only some white speces. -->
+			<RenameTabTemporaryNameIsEmpty title="이름바꾸기 실패" message="빈 문자열이나 공백 문자(스페이스나 탭)만 있는 문자열은 사용할 수 없습니다."/><!-- HowToReproduce: Rename the tab of an untitled document and provide an empty string or only some white speces. -->
 			<DeleteFileFailed title="파일 삭제" message="파일을 삭제하지 못했습니다"/><!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 
 			<NbFileToOpenImportantWarning title="열려는 파일이 너무 많습니다" message="$INT_REPLACE$개 파일을 열려고 합니다.
@@ -1427,6 +1481,9 @@ Translation note:
 			<DroppingFolderAsProjectModeWarning title="잘못된 동작" message="폴더를 프로젝트로 사용하고 있어서, 파일과 폴더를 동시에 드롭할 수 없습니다.
 이 동작을 사용하기 위해서는 설정의 &quot;기본 디렉토리&quot; 항목의 &quot;폴더 드롭시 작업 영역으로 여는 대신 폴더의 모든 파일 열기&quot; 를 선택하십시오"/>
 			<SortingError title="정렬 오류" message="$INT_REPLACE$ 줄 때문에 숫자 정렬을 수행할 수 없습니다."/><!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
+			<SortLocaleMultiple title="정렬이 수행되지 않음" message="여러 선택 항목을 정렬하는 것은 지원되지 않습니다."/><!-- HowToReproduce: Make a multiple selection and choose Edit | Line Operations | Sort Lines In Locale Order. -->
+			<SortLocaleUnknown title="정렬 실패" message="정렬이 실패한 이유를 알 수 없습니다."/><!-- HowToReproduce: This condition is theoretical; it is unknown what could cause it. -->
+			<SortLocaleExcept title="정렬 실패" message="$STR_REPLACE$"/><!-- HowToReproduce: Open a large file, e.g. 500MB / 90k lines, in 32-bit Notepad++ and choose Edit | Line Operations | Sort Lines In Locale Order. -->
 			<ColumnModeTip title="열 모드 팁" message="
 3가지의 열 모드 변경 방법이 있습니다.
 
@@ -1436,9 +1493,9 @@ Translation note:
 
 3. (키보드 또는 마우스)
       커서를 원하는 열 블록의 시작 위치에 두고,
-	  &quot;열 모드 편집 선택 시작/끝&quot; 명령 실행;
-	  커서를 원하는 열 블럭의 끝 위치에 두고,
-	  &quot;열 모드 편집 선택 시작/끝&quot; 명령을 다시 실행;"/>
+      &quot;열 모드 편집 선택 시작/끝&quot; 명령 실행;
+      커서를 원하는 열 블럭의 끝 위치에 두고,
+      &quot;열 모드 편집 선택 시작/끝&quot; 명령을 다시 실행;"/>
 			<BufferInvalidWarning title="저장 실패" message="저장할 수 없습니다: 버퍼가 잘못되었습니다."/><!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 			<DoCloseOrNot title="파일 보존" message="&quot;$STR_REPLACE$&quot; 은 더 이상 존재하지 않습니다.
 파일을 보존하시겠습니까?"/>
@@ -1497,6 +1554,11 @@ langs.xml 파일을 복구하시겠습니까?"/><!-- HowToReproduce: Close Notep
 			<UDLNewNameError title="UDL 오류" message="이 이름은 다른 언어에서 사용하고 있습니다.
 다른 이름을 사용해 주세요."/>
 			<UDLRemoveCurrentLang title="현재 언어 삭제" message="삭제하시겠습니까?"/>
+			<UDL_importSuccessful title="사용자 정의 언어" message="가져오기가 성공했습니다."/>
+			<UDL_importFails title="사용자 정의 언어" message="가져오기에 실패했습니다."/>
+			<UDL_saveBeforeImport title="사용자 정의 언어" message="내보내기 전에 &quot;다른 이름으로 저장...&quot; 버튼을 클릭하여 언어 정의를 저장하세요."/> <!-- HowToReproduce: Choose "User Defined Language" in User Language combobox, then click on "Export... button". -->
+			<UDL_exportSuccessful title="사용자 정의 언어" message="내보내기가 성공했습니다."/>
+			<UDL_exportFails title="사용자 정의 언어" message="내보내기에 실패했습니다."/>
 			<SCMapperDoDeleteOrNot title="확인" message="이 단축키를 삭제하시겠습니까?"/>
 			<FindCharRangeValueError title="범위 오류" message="0에서 255까지만 입력할 수 있습니다."/>
 			<OpenInAdminMode title="저장 실패" message="파일을 저장할 수 없습니다. 보호 중인 것 같습니다.
@@ -1536,9 +1598,13 @@ Nodepad++ 은 오래된 &quot;shortcuts.xml&quot;을 &quot;shortcuts.xml.v8.5.2.
 			<FileMemoryAllocationFailed title="예외: 파일 메모리 할당 실패" message="Notepad++에서 파일을 읽어들일 수 있는 연속적인 빈 메모리 공간이 충분하지 않은 것 같습니다."/><!-- HowToReproduce: Try to open multiple files with total size > ~700MB in the x86 Notepad++ (it will depend on the PC memory configuration and the current system memory usage...). -->
 			<FindRegexBackwardDisabled title="표현식을 이용한 거꾸로 찾기 실패" message="기본적으로 표현식을 이용한 거꾸로 찾기는 예상치 못한 결과를 유발할 수 있어 비활성화되어 있습니다. 거꾸로 찾기를 하려면, 찾기 창을 열고 정규 표현식 대신 일반 혹은 확장 찾기 모드를 선택하세요.
 찾기 찾을 열거나 찾기 창을 앞으로 끌어오려면 확인 버튼을 누르세요.
-
+			
 정규 표현식 기반의 거꾸로 찾기가 필요하다면, 이 기능 활성화에 대한 사용자 매뉴얼을 참조하세요."/>
-            <PrintError title="0" message="프린터 문서를 시작할 수 없습니다."/><!-- Use title="0" to use Windows OS default translated "Error" title. -->
+			<PrintError title="0" message="프린터 문서를 시작할 수 없습니다."/><!-- Use title="0" to use Windows OS default translated "Error" title. -->
+			<FindAutoChangeOfInSelectionWarning title="검색 경고" message="&quot;선택 중&quot; 확인란 상태가 자동으로 수정되었습니다.
+작업을 수행하기 전에 검색 조건을 확인해 주세요."/> <!-- HowToReproduce: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 -->
+			<Need2Restart2ShowMenuShortcuts title="Notepad++를 재시작해야 합니다" message="올바른 메뉴 바로 가기를 표시하려면 Notepad++ 를 재시작해야 합니다."/>
+			<NoAdminRight2ChangeReadOnlyFileAttribute title="파일 읽기 전용 속성 변경 실패" message="파일 속성을 변경하려면 관리자로 Notepad++를 실행하세요."/>
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="클립보드 사용 기록"/>
@@ -1672,8 +1738,9 @@ tests, bin &amp;&amp; bin64 디렉토리를 제외하고 모든 파일 찾기:
 *.* !\tests !\bin*
 
 log나 logs를 포함한 하위 디렉토리를 제외하고 모든 파일 찾기:
-*.* !+\log*"/><!-- HowToReproduce: Tip of mouse hovered on "Filters" label in "Find in Files" secction of Find dialog. -->
+*.* !+\log*"/><!-- HowToReproduce: Tip of mouse hovered on "Filters" label in "Find in Files" section of Find dialog. -->
 			<find-in-files-select-folder value="찾기 시작할 폴더를 선택하십시오"/><!-- HowToReproduce: Search > Find in Files > [...] -->
+			<find-in-files-dir-from-active-doc-tip value="활성 문서를 기반으로 디렉토리 필드 채우기"/><!-- HowToReproduce: Search > Find in Files > [<<] -->
 			<find-status-top-reached value="찾기: 아래로부터 찾은 마지막 위치입니다. 문서의 처음에 도달했습니다."/>
 			<find-status-end-reached value="찾기: 위에서부터 찾은 마지막 위치입니다. 문서의 끝에 도달했습니다."/>
 			<find-status-replaceinfiles-1-replaced value="파일에서 바꾸기: 1곳을 바꾸었습니다."/>
@@ -1707,7 +1774,9 @@ log나 logs를 포함한 하위 디렉토리를 제외하고 모든 파일 찾�
 			<finder-collapse-all value="모두 접기"/>
 			<finder-uncollapse-all value="모두 펼치기"/>
 			<finder-copy value="선택된 줄 복사"/>
+			<finder-copy-selected-paths value="선택한 경로 이름 복사"/>
 			<finder-clear-all value="모두 지우기"/>
+			<finder-open-selected-paths value="선택한 경로 이름 열기"/>
 			<finder-purge-for-every-search value="모든 찾기 삭제"/>
 			<finder-wrap-long-lines value="긴 줄을 단어 단위로 줄바꿈"/>
 			<common-ok value="확인"/>
@@ -1717,8 +1786,8 @@ log나 logs를 포함한 하위 디렉토리를 제외하고 모든 파일 찾�
 			<tabrename-newname value="새 이름"/>
 			<splitter-rotate-left value="왼쪽으로 회전"/>
 			<splitter-rotate-right value="오른쪽으로 회전"/>
-			<userdefined-title-new value="새로운 언어 만들기..."/>
-			<userdefined-title-save value="새로운 언어를 다른 이름으로 저장..."/>
+			<userdefined-title-new value="새 언어 만들기..."/>
+			<userdefined-title-save value="새 언어를 다른 이름으로 저장..."/>
 			<userdefined-title-rename value="현재 언어의 이름바꾸기"/>
 			<summary value="요약"/>
 			<summary-filepath value="파일의 전체 경로: "/>
@@ -1728,7 +1797,7 @@ log나 logs를 포함한 하위 디렉토리를 제외하고 모든 파일 찾�
 			<summary-nbword value="단어 수: "/>
 			<summary-nbline value="줄 수: "/>
 			<summary-nbbyte value="문서 길이: "/>
-			<summary-nbsel1 value=" 선택된 글자 수("/>
+			<summary-nbsel1 value=" 선택된 문자 ("/>
 			<summary-nbsel2 value=" bytes) "/>
 			<summary-nbrange value=" 범위"/>
 			<progress-hits-title value="도달:"/>
@@ -1756,7 +1825,7 @@ log나 logs를 포함한 하위 디렉토리를 제외하고 모든 파일 찾�
 			<find-result-line-prefix value="줄"/><!-- Must not begin with space or tab character -->
 			<find-regex-zero-length-match value="길이 0 일치"/>
 			<session-save-folder-as-workspace value="폴더를 작업 영역으로 저장"/>
-			<tab-untitled-string value="새로운 "/>
+			<tab-untitled-string value="새 문서 "/>
 			<file-save-assign-type value="확장자 추가(&amp;A)"/>
 			<close-panel-tip value="닫기"/>
 			<IncrementalFind-FSFound value="$INT_REPLACE$ 일치"/>
@@ -1765,7 +1834,7 @@ log나 logs를 포함한 하위 디렉토리를 제외하고 모든 파일 찾�
 			<IncrementalFind-FSEndReached value="문서의 끝에 도달했습니다, 위에서 계속합니다."/>
 			<contextMenu-styleAlloccurrencesOfToken value="모든 토큰에 형식 지정"/>
 			<contextMenu-styleOneToken value="한 토큰에 형식 지정"/>
-			<contextMenu-clearStyle value="형식 해제"/>
+			<contextMenu-clearStyle value="스타일 지우기"/>
 			<contextMenu-PluginCommands value="플러그인 명령"/>
 			<largeFileRestriction-tip value="일부 기능은 큰 파일에 대해 성능을 저하시킬 수 있습니다. 이런 기능들은 큰 파일을 열 때 자동으로 꺼질 수 있습니다. 여기서 설정을 바꿀 수 있습니다.
 
@@ -1788,7 +1857,6 @@ ZWNBSP : 너비 0의 단어 잘림 방지 공백
 
 전체 목록은 사용자 매뉴얼에서 확인하세요.
 웹 사이트의 사용자 매뉴얼을 보시려면 &quot;?&quot;을 오른쪽 클릭하세요."/>
-
 			<npcCodepoint-tip value="Codepoint : 이름
 U+00A0 : 단어 잘림 방지 공백
 U+200B : 너비 0의 공백
@@ -1802,11 +1870,31 @@ U+FEFF : 너비 0의 단어 잘림 방지 공백
 			<npcIncludeCcUniEol-tip value="출력 불가능한 글자 모양 설정을 C0, c1 제어와 줄 끝 문자에 적용합니다. (다음 줄, 줄 분리자, 문단 분리자)."/>
 			<searchingInSelThresh-tip value="찾기 창을 활성화할 때 &quot;선택&quot; 체크박스를 자동으로 검사하기 위해 편집 영역에서 선택한 글자 수. 최대값은 1024입니다. 0으로 설정하면 자동 검사가 비활성화됩니다."/>
 			<verticalEdge-tip value="십진수로 위치를 나타내는 열 표시기를 추가하세요. 다른 숫자를 구분하기 위해 공백 문자를 사용하는 몇 가지 열 표시기를 정의할 수 있습니다."/>
+			<fileSaveAsCopySaveButton-tip value="저장을 누른 상태에서 Shift 키를 눌러 저장 후 복사본을 엽니다."/>
 			<autoIndentBasic-tip value="현재 줄(예. ENTER키를 눌러 생성된 새 줄)이 이전 줄의 들여쓰기와 일치하는지 확인하세요."/>
-			<autoIndentAdvanced-tip value="&quot;C 같은&quot; 언어나 파이썬 언어에 대해 지능적 들여쓰기를 활성화하세요. &quot;C같은&quot; 언어는 다음과 같습니다.:
-C, C++, Java, C#, Objective-C, PHP, JavaScript, JSP, CSS, Perl, Rust, PowerShell, JSON.
+			<autoIndentAdvanced-tip value="&quot;C 같은&quot; 언어나 Python 언어에 대해 지능적 들여쓰기를 활성화하세요. &quot;C같은&quot; 언어는 다음과 같습니다:
+C, C++, Java, C#, Objective-C, PHP, JavaScript, JSP, CSS, Perl, Rust, PowerShell 및 JSON.
 
 앞서 언어들에 대해 고급 모드를 선택하고 파일을 편집하지 않으면, 들여쓰기가 기본 모드로 유지됩니다."/>
+
+			<!-- Don't translate "Global override" and "Default Style" -->
+			<global-override-tip value="여기서 &quot;Global override&quot;를 활성화하면 모든 언어 스타일에서 해당 매개변수가 오버라이드됩니다. 실제로 원하는 것은 &quot;Default Style&quot; 설정을 사용하는 것입니다"/>
+			<scintillaRenderingTechnology-tip value="특수 문자 렌더링을 개선하거나 일부 그래픽 문제를 해결하려면 Notepad++를 재시작하여 변경 사항을 적용하세요."/>
+
+			<!-- Due to the limited space on the status bar, if the translations for 'length' & 'lines' are much longer than the English words, please leave them in English instead of translating them. -->
+			<statusbar-length-lines value="길이: $STR_REPLACE1$    줄: $STR_REPLACE2$"/>
+
+			<!-- Due to the limited space on the status bar, if the translations for 'Ln' & 'Col' are longer than the English words, please leave them in English instead of translating them. -->
+			<statusbar-Ln-Col value="줄: $STR_REPLACE1$    열: $STR_REPLACE2$"/>
+
+			<!-- Due to the limited space on the status bar, if the translations for 'Pos' & 'Sel' are longer than the English words, please leave them in English instead of translating them. -->
+			<statusbar-Pos value="위치: "/>
+			<statusbar-Sel value="선택: "/>
+			<statusbar-Sel-number value="선택"/>
+			<toolbar-accent-tip value="이 옵션을 사용하면 도구 모음 아이콘이 Windows 시스템 강조 색상을 따르도록 합니다. 강조 색상은 Windows의 버튼, 테두리 및 시작 메뉴 타일에 사용되는 강조 색상입니다. 변경하려면 설정 &gt; 개인 설정 &gt; 색상으로 이동한 다음 원하는 강조 색상을 선택합니다."/>
+			<max-len-on-search-tip value="텍스트 길이 찾기/교체에는 $INT_REPLACE$ 문자만 허용되며, 입력이 잘릴 수 있으며 다음 세션에는 저장되지 않습니다."/>
+			<max-len-on-save-tip value="이 검색 입력 (> $INT_REPLACE$ characters)은 다음 세션에 저장되지 않습니다."/>
+			<goto-setting-tip value="여기에서 설정 찾기"/>
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
